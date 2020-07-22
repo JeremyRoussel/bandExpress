@@ -1,0 +1,63 @@
+{
+  "albums": [{
+    "id" : 0,
+    "name": "Candlebox",
+    "shortName": "candlebox",
+    "albumName": "Candlebox",
+    "tracklist" : "1. Don't You<br>2. Change<br>3. You<br>4. No Sense<br>5. Far Behind<br>6. Blossom<br>7. Arrow<br>8. Rain<br>9. Mothers Dream<br>10. Cover Me<br>11. He Calls Home",
+    "description": "Seattle's Candlebox exploded out of the gate with their heavy-rocking 1993 self-titled debut. But don't call these guys grunge. Sure, frontman Kevin Martin contends with Eddie Vedder for the most aching warble on angsty power ballads like 'Far Behind' and 'Cover Me', but the band's most intense moments come when they straight up rock. The opening 'Don't You' chugs like early Aerosmith as Peter Klett works his guitar into a searing, squealing frenzy, while 'Rain' furiously transforms from a bluesy jam to a wild pop-metal blowout.",
+    "artwork": "candlebox.jpg",
+    "albumAM": "https://music.apple.com/us/album/candlebox/300983126",
+    "albumSM": "https://open.spotify.com/album/401V2sVeZfq8bjBqojsPRb?si=0vPcKZ2FRrubUyxDAQ4BHQ"
+  },{
+    "id" : 1,
+    "name": "Candlebox",
+    "shortName": "lucy",
+    "albumName": "Lucy",
+    "tracklist" : "1. Simple Lessons<br>2. Drowned<br>3. Lucy<br>4. Best Friend<br>5. Become (To Tell)<br>6. Understanding<br>7. Crooked Halo<br>8. Bothered<br>9. Butterfly<br>10. It's Amazing<br>11. Vulgar Before Me<br>12. Butterfly (Reprise)",
+    "description": "Lucy is the second studio album by Seattle rock band Candlebox. Although the album did not fare as well as its 1993 predecessor, the single <i>Simple Lessons</i> received considerable airplay, and Lucy eventually achieved gold certification.",
+    "artwork": "lucy.jpg",
+    "albumAM": "https://music.apple.com/us/album/lucy/281716983",
+    "albumSM": "https://open.spotify.com/album/4EEDIRukTRQEjLH3kQbxZM?si=z0kMmyq7S9Wgqumck4MgMg"
+  },{
+    "id" : 2,
+    "name": "Candlebox",
+    "shortName": "happypills",
+    "albumName": "Happy Pills",
+    "tracklist" : "1. 10,000 Horses<br>2. Happy Pills<br>3. Blinders<br>4. It's Alright<br>5. A Stone's Throw Away<br>6. So Real<br>7. Offerings<br>8. Sometimes<br>9. Step Back<br>10. Belmore Place<br>11. Breakaway<br>12. Look What You've Done",
+    "description": "Happy Pills is the third studio album by Seattle post-grunge band, Candlebox. It features former Pearl Jam drummer Dave Krusen who replaced Scott Mercado in 1997. Happy Pills did not gain the success of its predecessors and would be the last Candlebox album before their hiatus in 2000.",
+    "artwork": "happyPills.jpg",
+    "albumAM": "https://music.apple.com/us/album/happy-pills/45434534",
+    "albumSM": "https://open.spotify.com/album/4WY3Rdhp6BkZOzMyDycvxE?si=MxcfYSELQty8voVSv6RuWA"
+  },{
+    "id" : 3,
+    "name": "Candlebox",
+    "shortName": "intothesun",
+    "albumName": "Into the Sun",
+    "tracklist" : "1. Stand<br>2. Bitches Brewin'<br>3. Surrendering<br>4. Into the Sun<br>5. Underneath It All<br>6. Miss You<br>7. How Does It Feel<br>8. A Kiss Before<br>9. Breathe Me In (Intro)<br>10. Breathe Me In<br>11. Lover – Come Back to Me<br>12. Consider Us",
+    "description": "Into the Sun is the fourth studio album by Seattle post-grunge band Candlebox. Released in 2008, it is their first album since 1998's Happy Pills and would mark both the band's studio return after a seven-year hiatus as well as their first album with Silent Majority Group.",
+    "artwork": "intoTheSun.jpg",
+    "albumAM": "https://music.apple.com/us/album/into-the-sun/542065603",
+    "albumSM": "https://open.spotify.com/album/6hsEzNhilXoQgS03NGs0lr?si=A26NjlGHQPu4LXkFyVmZdQ"
+  },{
+    "id" : 4,
+    "name": "Candlebox",
+    "shortName": "lovestories",
+    "albumName": "Love Stories & Other Musings",
+    "tracklist" : "1. Youth in Revolt<br>2. Sweet Summertime<br>3. Believe in It<br>4. She Come Over Me<br>5. Turn Your Heart Around<br>6. Lifelike Song<br>7. Come Home<br>8. Baby Love Me<br>9. Them Eyes<br>10. Far Behind<br>11. Untitled<br>12. Cover Me<br>13. Change<br>14. Simple Lessons",
+    "description": "Love Stories & Other Musings is the fifth studio album by the alternative rock band Candlebox. It was released in 2012 on Audionest.",
+    "artwork": "loveStoriesOtherMusings.jpg",
+    "albumAM": "https://music.apple.com/us/album/love-stories-other-musings/715383779",
+    "albumSM": "https://open.spotify.com/album/5M3INTbD7tyiG4N7yVQvQn?si=vssoRmRpRay4eq-X4tB3iA"
+  },{
+    "id" : 5,
+    "name": "Candlebox",
+    "shortName": "dissappearing",
+    "albumName": "Disappearing in Airports",
+    "tracklist" : "1. Only Because of You<br>2. Vexatious<br>3. Supernova<br>4. Alive at Last<br>5. I've Got a Gun<br>6. I Want It Back<br>7. The Bridge<br>8. Spotlights<br>9. Crazy<br>10. Gods Gift<br>11. Keep on Waiting",
+    "description": "Disappearing in Airports is the sixth studio album by rock band Candlebox. It was released on April 22, 2016, on Pavement Entertainment. It is also the first album without original guitarist Peter Klett, and has only singer Kevin Martin left from the original lineup. Former Pearl Jam drummer Dave Krusen returned for the album",
+    "artwork": "disappearingInAirports.jpg",
+    "albumAM": "https://music.apple.com/us/album/disappearing-in-airports/1073287738",
+    "albumSM": "https://open.spotify.com/album/6RJvBZq70w20QnknnUlcgx?si=1UNrpvuARwifWrRfLnTLTg"
+  }]
+}

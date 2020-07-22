@@ -1,0 +1,16 @@
+<!-- Albums -->
+
+<h2 class="myH2">Albums</h2>
+
+<div class="albums">
+    <% for( let index = 0; index < albums.length; index++ ) { %>
+        <div class="album-container">
+            <a href="/albums/<%-albums[index].shortName%>">
+                <img class="album-images" src="/images/<%-albums[index].artwork%>" alt="<%-albums[index].albumName%>">
+            </a>
+            
+        </div>
+        
+    <% } %>
+
+</div>

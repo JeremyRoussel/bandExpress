@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candlebox Rocks</title>
+    <link rel="stylesheet" href="/css/albumStyles.css">
+</head>
+<body>
+  <%- include ('partials/elements/navbar.ejs') %>
+
+  <section class="home">
+
+  </section>
+  
+    
+    <%- include ('partials/elements/bigAlbum.ejs') %>
+
+    
+   
+
+    <div class="post-splash">
+
+        <%- include ('partials/elements/albumList.ejs') %>
+
+    </div>
+
+    
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/js/scripts.js"></script>
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+</body>
+</html>
