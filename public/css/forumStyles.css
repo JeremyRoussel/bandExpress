@@ -8,6 +8,108 @@ body {
     font-size: 62.5%;
     font-size: 10px;
 }
+
+/* Home section */
+
+.home {
+    width: 100%;
+    height: 15vh;
+    background-image: url(../images/bg_cbox1.jpg);
+    background-position: center top;
+    background-size:cover;
+    /* z-index: 10; */
+    position: static;
+    /* overflow: hidden; */
+}
+
+.forum-form-title{
+    text-align: center;
+}
+
+.forum-item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;;
+}
+
+.media-item {
+    align-self: start;
+}
+
+.feedback-delete{
+    margin-right: 10px;
+}
+
+.feedback-item {
+    justify-content: center;
+}
+
+.feedback-name {
+    background-color: rgb(155, 240, 134);
+    border: 2px solid black;
+    padding: 3px;
+    font-size: 1rem;
+}
+
+.feedback-title {
+   font-size: 1.3rem;
+   margin-bottom: 5px;
+}
+
+.feedback-messages {
+    margin-left: 5vw;
+}
+
+.article-title {
+    text-align: center;
+    font-size: 2rem;
+}
+.forum-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+
+.form-container {
+    /* display: flex; */
+    flex: 4;
+    justify-content: center;
+    align-items: center;
+}
+
+.comments-container{
+    display: flex;
+    flex: 8;
+    justify-content: center;
+}
+
+.form-group {
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.form-control{
+    border-radius: 2px;
+}
+
+label {
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+
+textarea {
+    border-width: 2px;
+}
+
+/* .form-button {
+    display: flex;
+    justify-content: center;
+} */
+
+
+
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
@@ -103,75 +205,6 @@ body {
     margin: 4px;
 }
 
-/* Home section */
-
-.home {
-    width: 100%;
-    height: 60vh;
-    background-image: url(../images/bg_cbox1.jpg);
-    background-position: center top;
-    background-size:cover;
-    z-index: 10;
-    position: static;
-    /* overflow: hidden; */
-}
-
-/* .post-splash {
-    height: 500px; 
-} */
-
-.jumbo {
-    position: absolute;
-    width: 100%;
-    top: 5%;
-    text-align: center;
-    color: rgb(252, 252, 252);
-}
-
-.jumbo-text {
-    font-size: 10rem;
-}
-
-.myH2 {
-	text-align:center;
-	font-size: 4rem;
-}
-
-.myP {
-	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 20px;
-}
-
-.albums{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.album-container{
-    display: flex;
-    flex-direction: column;
-    /* width: 200px;
-    height: 200px; */
-    margin: 5px;
-    box-sizing: border-box;
-}
-
-.album-images{
-    width: 200px;
-    height: 200px;
-    box-sizing: border-box;
-    border: 3px solid white;
-}
-
-.album-images:hover {
-    border: 3px solid #6f7170;
-}
-
-
 /* Media qurey section */
 
 @media all and (max-width:700px){
@@ -187,10 +220,25 @@ body {
 }
 
 @media screen and (max-width:768px) {
+
+    .forum-container {
+        display: inline;
+    }
+
+    .form-group {
+        justify-content: center;
+    }
+
+
+}
+
+
+@media screen and (max-width:768px) {
+
+
     .nav {
         z-index: 200;
     }
-
     .jumbo-text {
         font-size: 5rem;
     }

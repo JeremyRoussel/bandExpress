@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candlebox Rocks</title>
+    <link rel="stylesheet" href="/css/forumStyles.css">
+</head>
+<body>
+  <%- include ('partials/elements/navbar.ejs') %>
+
+  <section class="home">
+
+  </section>
+  
+  <div class="forum-container">
+    <div class="form-container">
+        <h1 class="forum-form-title">Make a Forum Post</h1>
+        <form class="forum-form">
+            <div class="form-group">
+                <label for="feedback-form-name">Name</label>
+                <input type="text" class="form-control" id="feedback-form-name" size="20" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="feedback-form-title">Title</label>
+                <input type="text" class="form-control" id="feedback-form-title" size="20" placeholder="Forum Post Title">
+            </div>
+            <div class="form-group">
+                <label for="feedback-form-message">Message</label>
+                <textarea type="text" placeholder="Enter your message here, then submit"  class="form-control" id="feedback-form-message" rows="6"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="form-button">Submit</button>
+            </div>
+        </form>
+    </div>
+    <aside class="comments-container">
+        <div class="maincontent feedback">
+            <h1 class="article-title">Recent Forum Posts</h2>
+            <div class="feedback-messages"></div>
+        </div>
+    </aside>
+  </div>
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <script src="/js/scripts.js"></script>
+    <script src="/js/navBarScript.js"></script>
+    <script src="js/forum.js"></script>
+
+</body>
+</html>
