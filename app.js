@@ -1,8 +1,12 @@
+require("dotenv").config();
 const express = require('express');
 
 const app = express();
 
 const socket = require('socket.io');
+
+const PORT = process.env.PORT
+
 
 // link to public folder
 app.use(express.static('public'));
@@ -22,7 +26,7 @@ app.use(require('./routes/chat'))
 
 // Start Server
 
-let server = app.listen(3000, () => {
+let server = app.listen(PORT, () => {
     console.log('Listening on port 3000');
 })
 
