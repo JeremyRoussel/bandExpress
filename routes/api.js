@@ -49,20 +49,22 @@ router.post('/api', (req, res) => {
 
 // Delete function
 
-// router.delete('/api', (req, res) => {
+router.delete('/api/:id', (req, res) => {
     
-//     console.log(req.body);
-//     forumData.unshift(req.body)
-//     fs.writeFile('data/forum.json', JSON.stringify(forumData), 'utf8', (err) => {
+    console.log(req.body);
+    console.log(req.params.id);
+    // forumData.unshift(req.body)
+    forumData.splice(req.params.id, 1)
+    fs.writeFile('data/forum.json', JSON.stringify(forumData), 'utf8', (err) => {
         
-//         if (err){
-//             console.log(err);
-//         }
+        if (err){
+            console.log(err);
+        }
         
-//     })
+    })
 
-//     res.json(forumData);
-// })
+    res.json(forumData);
+})
 
 
 module.exports = router;

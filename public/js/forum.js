@@ -11,11 +11,12 @@ $(function() {
     });
   
     $('.feedback-messages').on('click', function(e) {
-        console.log('Button Press');
-        if (e.target.className == 'glyphicon glyphicon-remove') {
+        if (e.target.className == 'feedback-delete') {
+          console.log('Button Press');
+          console.log(e.target.id);
           $.ajax({
             url: 'api/' + e.target.id,
-            type: 'DELETE',
+            method: 'DELETE',
             success: updateFeedback
           }); //ajax
         } // the target is a delete button
@@ -27,7 +28,7 @@ $(function() {
        output += '<div class="feedback-item item-list media-list">';
        output += '  <div class="forum-item media">';
        output += '      <div class="media-left">';
-       output += '          <button class="feedback-delete"><img src="../images/icons8-delete-trash-24.png"><span id="' + key + '" class="glyphicon glyphicon-remove"></span></button>';
+       output += '          <button class="feedback-delete" id="' + key + '"><img src="../images/icons8-delete-trash-24.png"></span></button>';
        output += '      </div>';
        output += '      <div class="feedback-info media-body">';
        output += '          <div class="feedback-head">';
