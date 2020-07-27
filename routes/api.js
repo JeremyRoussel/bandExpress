@@ -32,7 +32,7 @@ router.get('/api', (req, res) => {
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({extended: false}));
 
-router.post('/api', (req, res) => {
+router.post('/api', (req, res) => {  // Data sent from our page to be placed into the storage file
     
     console.log(req.body);
     forumData.unshift(req.body)
